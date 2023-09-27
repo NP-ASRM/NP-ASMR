@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+    outline: none;
+}
+
+body{
+    height: 100vh ;
+    background: black;
+}
+
+header{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+    bottom: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+ li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.LogoWhite{
+    width: 80%;
+    height: auto;
+
+}
+
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header li{
+    margin-right: 35px;
+    position: relative;
+    left: 0px;
+
+}
+
+.searchinputs{
+    position: relative;
+    left:-15px;
+}
+
+li button{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    background: transparent;
+   border:  1px   solid white;
+   color: white;
+   transition: all 0.2s ease-in-out;
+}
+
+.GetS:hover{
+    color: black;
+    background: white;
+    border: transparent;
+}
+
+.submenu{
+    position: relative;
+    margin-right: 50px;
+   
+} 
+   
+
+.video-Time{
+    position: relative;
+    bottom: 238px;
+    left: -200px;
+    object-fit: cover;
+    z-index: -100;
+
+}
+
+.video-Time video{
+    width: 127.9%;
+    height: 100%;
+    opacity: 0.5;
+
+   
+}
+
+.video-text h1{
+    color: white;
+    font-size: 60px;
+}
+.video-text{
+    position: relative;
+    bottom: 850px;
+    left: 200px;
+    z-index: 1;
+   
+}
+
+.video-text button{
+    font-size: 20px;
+    position: relative;
+    width: 200px;
+    height: 30px;
+    font-size: 17px;
+    background: transparent;
+   border:  1px   solid white;
+   color: white;
+   transition: all 0.2s ease-in-out;
+   
+
+}
+
+.video-text button:hover{
+    background: white;
+    color: black;
+    border: transparent;
+}
+
+.bnt-play{
+    position: relative;
+    top: -890px;
+    left: 1120px;
+    z-index: 1;
+
+}
+.bnt-play button{
+    width: 150px;
+    height: 50px;
+    border: transparent;
+    background: black;
+    color: white;
+    font-size: 17px;
+    transition: all 0.3s  ease-in-out;
+    z-index: ;
+}
+
+.bnt-play button:hover{
+    background: white;
+    color: black;
+
+}
+
+button:hover{
+    background: white;
+    color: black;
+}
+
+.compones-device{
+    color: white;
+    position: relative;
+    bottom: 770px;
+    background: black;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    display: inline-block;
+    display: flex;
+    margin-right: 30px;
+    border-bottom:  1px   solid   white;
+}
+
+.compones-device h1{
+    font-size: 28px;
+    
+}
+
+.compones-device div{
+    margin-left: 50px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.compones-device a{
+    color:  white;
+    font-size: 19px;
+    transition: all  0.3s ease-in-out;
+}
+
+.compones-device a:hover{
+    text-decoration: none;
+    
+}
+
+.Latest-Udate div{
+    color: white;
+    display: flex;
+   
+    
+
+}
+.Latest-Udate img{
+    width: 300px;
+    height: 300px;
+    /* margin-right: -80px; */
+}
+
+#Latest img{
+    width: 270px;
+    height: 270px;
+
+}
+
+
+
+#Latest{
+    border-bottom:  transparent;
+    left: -20px;
+
+}
+
+.Latest-h1-a{
+    color: white;
+    position: relative;
+    bottom: 750px;
+    padding: 0;
+    display: flex;
+    z-index: 1;
+}
+
+.Latest-h1-a a{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 950px;
+}
+
+.Latest-h1-a h1{
+    position: relative;
+    color: white;
+    left: 70px;
+}
+
+.TX{
+    font-size: 15px;
+}
+
+.Safety{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 530px;
+    padding: 10px;
+    border-top: solid  1px   white;
+
+}
+
+
+
+.Safety a{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    left: 700px;
+}
+
+.Safety p{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left: 700px;
+}
+.Safety h1{
+    color: white;
+    position: relative;
+    top: 85px;
+    left: 50px;
+}
+
+.Img-big1{
+    position: relative;
+    bottom: 400px;
+}
+
+#Safety-2{
+    position: relative;
+    bottom: 350px;
+}
+
+   
+.Estructurecopyone{
+    position: relative;
+    display:flex ;
+    color: white;
+    font-size: 18px;
+    bottom: 280px;
+    padding: 10px;
+    transition: all 0.3S  ease-out;
+
+
+
+}
+
+.Estructurecopyone a{
+    color: white;
+}
+
+.Estructurecopyone img{
+    width: 300px;
+    height: 300px;
+
+}
+
+.compones-device div{
+    position: relative;
+    margin-right: 30px;
+}
+
+
+#Laste-One div {
+    cursor: pointer;
+
+
+}
+
+#Laste-One div a{
+    transition: all 0.3s  ease-in-out;
+}
+
+#Laste-One div a:hover{
+    text-decoration: none;
+
+}
+
+
+#Safety-3{
+    position: relative;
+    top: -180px;
+}
+
+#Laste-One1 div {
+    cursor: pointer;
+
+
+}
+
+#Laste-One1 div a{
+    transition: all 0.3s  ease-in-out;
+}
+
+#Laste-One1 div a:hover{
+    text-decoration: none;
+
+}
+
+#Laste-One1{
+    position: relative;
+    top: -70px;
+}
+
+#Safety-4{
+    position: relative;
+    top: -40px;
+}
+
+
+#Img-big-2{
+    position: relative;
+    top: 100px;
+}
+
+.Carrier{
+    color: white;
+    position: relative;
+    top: 300px;
+    display: flex;
+    
+}
+
+.Carrier p{
+    font-size: 40px;
+    position: relative;
+    left: 30px;
+}
+
+.Carrier img{
+    width: 650px;
+    height: 650px;
+    position: relative;
+   right: 20px;
+    bottom: 20px;
+
+}
+
+
+.text-app{
+    color: white;
+    position: relative;
+    left: 36px;
+   
+}
+
+
+
+.text-app h1{
+    font-size: 18px;
+}
+
+.text-app span{
+    font-size: 18px;
+}
+
+
+.shaping{
+   position: relative;
+   z-index: -80;
+   top: 350px;
+   color: white;
+   justify-content: center;
+   left: 145px;
+  
+   
+
+}
+
+.shaping h1{
+    color: white;
+    font-size: 50px;
+}
+
+.shaping button{
+    position: relative;
+    width: 1000px;
+    height: 60px;
+    font-size: 20px;
+    background: transparent;
+    border:  1px   solid white;
+    color: white;
+   transition: all 0.2s ease-in-out;
+    z-index: 1;
+   top: 40px;
+   left: 23px;
+}
+
+
+.hover-finakl-btn:hover{
+    background: white;
+    color: black;
+}
+
+
+
+
+footer {
+    position: relative;
+    top: 300px;
+    
+}
+.li-comun{
+    position: relative;
+    display: inline;
+    z-index: -1;
+}
+
+
+
+.site-footer
+{
+  background-color:#1f1e1e;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  border-bottom: solid 1px  white;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+
+.footer-list{
+    display: flex ;
+    margin: 30px;
+    
+}
+footer{
+    position: relative;
+    top: 500px;
+    background: ;
+}
+
+#ul-footertrow{
+    position: relative;
+    left: 900px;
+    bottom: 150px;
+}
+
+
+#ul-footerone{
+    position: relative;
+    left: 800px;
+    bottom: 150px;
+}
+
+
+.img-logo-footer{
+    z-index: 0;
+    position: relative;
+    bottom: 70px;
+}
+
+
+#ul-footercero{
+    position: relative;
+    left: 650px;
+    bottom: 150px;
+}
+
+#ul-footertroww{
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+}
+
+.Balck{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    background: transparent;
+   border:  1px   solid white;
+   color: white;
+   transition: all 0.2s ease-in-out;
+   left: 650px;
+   top: 170px;
+
+}
+
